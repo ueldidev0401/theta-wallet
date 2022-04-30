@@ -1,0 +1,10 @@
+.Pages{
+    display: flex;
+    flex: 1;
+}
+
+.Pages--wallet{
+    margin-top: 15px;
+    height: 100%;
+    overflow-y: hidden;
+}

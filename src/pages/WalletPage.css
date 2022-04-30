@@ -1,0 +1,57 @@
+.WalletPage{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 100%;
+}
+
+.WalletPage__master-view{
+    display: flex;
+    flex-direction: column;
+    width: 362px;
+}
+
+.WalletPage__master-view-spinner{
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WalletPage__detail-view{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #242b45;
+    padding-left: 32px;
+    padding-right: 32px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.WalletPage__detail-view-spinner{
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+}
+
+.WalletPage__header-buttons{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end;
+    margin-left: 12px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .WalletPage__master-view{
+        width: 300px;
+    }
+}
+
+.WalletTokenList{
+    margin-right: 15px;
+}

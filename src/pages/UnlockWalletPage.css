@@ -1,0 +1,421 @@
+.UnlockWalletPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.UnlockWalletPage__wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+    width: 100%;
+    height: 550px;
+}
+
+.UnlockWalletPage__title{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 28px;
+    min-height: 28px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.UnlockWalletPage__subtitle{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: #8A8FB5;
+    margin-top: 16px;
+}
+
+.UnlockWalletPage__subtitle a{
+    margin-left: 6px;
+}
+
+
+.UnlockWalletCard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #8A8FB51F;
+    min-height: 435px;
+    border-radius: 12px;
+}
+
+.UnlockWalletCard__content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 17px;
+    padding-top: 0;
+}
+
+.UnlockWalletCard__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-bottom: 17px;
+}
+
+.UnlockWalletCard__footer{
+    margin-top: auto;
+}
+
+.UnlockWalletCard__title{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 26px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.UnlockWalletCard__subtitle{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 20px;
+    color: #92A2D6;
+}
+
+.UnlockWalletCard__tab-bar{
+    width: calc(100% + 34px);
+    background-color: transparent;
+}
+
+.UnlockWalletCard__warning{
+    display: flex;
+    align-self: center;
+    flex: 1;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    color: #ED1E5C;
+    max-width: 330px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.UnlockWalletViaKeystoreFile{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.UnlockWalletViaKeystoreFile__footer{
+    margin-top: auto;
+}
+
+.UnlockWalletViaKeystoreFile__file-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 1px dashed #697399;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 20px;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 17px;
+    color: #92A2D6;
+}
+
+.UnlockWalletViaKeystoreFile__file-input--has-file{
+    border: 1px solid #1BDED0;
+    color: #1BDED0;
+}
+
+.UnlockWalletViaKeystoreFile__file-input--has-file::after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 12px;
+    background-image: url("/img/icons/checkmark-green@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+}
+
+.UnlockWalletViaKeystoreFile__file-input:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.UnlockWalletViaKeystoreFile__file-input input[type="file"] {
+    display: none;
+}
+
+.UnlockWalletViaKeystoreFile__title{
+    font-size: 19px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 22px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.UnlockWalletViaKeystoreFile__password-input, .UnlockColdWalletLedger__select{
+    background-color: #8A8FB51F;
+    height: 50px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: 'AlwynNew', "Helvetica Neue", -apple-system, sans-serif;
+}
+
+.UnlockColdWalletLedger__select{
+    width: 100%;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+
+
+
+
+
+.UnlockWalletViaMnemonicPhrase{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.UnlockWalletViaMnemonicPhrase__footer{
+    margin-top: auto;
+}
+
+.UnlockWalletViaMnemonicPhrase__title{
+    font-size: 19px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 22px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.UnlockWalletViaMnemonicPhrase__mnemonic{
+    background-color: #8A8FB51F;
+    outline: none !important;
+    border: none !important;
+    color: white;
+    padding: 12px;
+    font-size: 17px;
+    height: 70px;
+    resize: none;
+    border-radius: 4px;
+}
+
+.UnlockWalletViaMnemonicPhrase__mnemonic-instructions{
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 16px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #92A2D6;
+}
+
+.UnlockWalletViaMnemonicPhrase__password-input{
+    background-color: #8A8FB51F;
+    height: 50px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: 'AlwynNew', "Helvetica Neue", -apple-system, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.UnlockWalletViaPrivateKey{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.UnlockWalletViaPrivateKey__footer{
+    margin-top: auto;
+}
+
+.UnlockWalletViaPrivateKey__title{
+    font-size: 19px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 22px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.UnlockWalletViaPrivateKey__private-key{
+    background-color: #8A8FB51F;
+    outline: none !important;
+    border: none !important;
+    color: white;
+    padding: 12px;
+    font-size: 17px;
+    height: 70px;
+    resize: none;
+    border-radius: 4px;
+}
+
+.UnlockWalletViaPrivateKey__private-key-instructions{
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 16px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #92A2D6;
+}
+
+.UnlockWalletViaPrivateKey__password-input{
+    background-color: #8A8FB51F;
+    height: 50px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: 'AlwynNew', "Helvetica Neue", -apple-system, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.UnlockWalletViaColdWallet{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.UnlockWalletViaColdWallet__footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.UnlockWalletViaColdWallet__footer .GradientButton{
+    flex: 1;
+}
+
+.UnlockWalletViaColdWallet__title{
+    font-size: 19px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 22px;
+    color: white;
+    margin-bottom: 0;
+}
+
+
+.HardwareDeviceAccountRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #687399;
+    cursor: pointer;
+}
+
+.HardwareDeviceAccountRow *{
+    cursor: inherit;
+}
+
+.HardwareDeviceAccountRow__address{
+    font-size: 13px;
+    font-weight: 600;
+    color: #92A2D6;
+    text-align: left;
+    flex: 1;
+}
+
+.HardwareDeviceAccountRow__balances{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    min-height: 38px;
+}
+
+.HardwareDeviceAccountRow__balance{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.HardwareDeviceAccountRow__balance img{
+    height: 13px;
+    margin-left: 6px;
+}
+
+.HardwareDeviceAccountRow__balance span{
+    font-size: 13px;
+    color: white;
+    text-align: right;
+}
+
+

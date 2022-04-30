@@ -1,0 +1,25 @@
+.PageHeader{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid rgba(59, 66, 99, 1.0);
+}
+
+
+.PageHeader__title{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #565D8A;
+    letter-spacing: 1.5px;
+}
+
+.PageHeader--is-sticky{
+    top: 0;
+    position: relative;
+    position: sticky;
+    background-color: #242b45;
+}

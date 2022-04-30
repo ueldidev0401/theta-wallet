@@ -1,0 +1,34 @@
+.TabBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    background-color: #242b45;
+    padding-left: 29px;
+    padding-right: 29px;
+}
+
+.TabBar--is-centered{
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.TabBar--is-centered .TabBarItem{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.TabBar--is-condensed .TabBarItem__title{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #92A2D6;
+}
+
+.TabBar--is-condensed .TabBarItem{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+

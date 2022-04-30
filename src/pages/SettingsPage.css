@@ -1,0 +1,41 @@
+.SettingsPage{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.SettingsPage__detail-view{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #242b45;
+    padding-left: 32px;
+    padding-right: 32px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.SettingsSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.SettingsSection__title{
+    font-size: 24px;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.SettingsSection__content{
+    max-width: 400px;
+}
+
+.InputTitle{
+    font-size: 16px;
+    font-weight: normal;
+    color: #7A88B5;
+    margin-bottom: 6px;
+
+}

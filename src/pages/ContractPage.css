@@ -1,0 +1,41 @@
+.ContractPage{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.ContractPage__detail-view{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #242b45;
+    padding-left: 32px;
+    padding-right: 32px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.DeployContractContent,
+.InteractWithContractContent{
+    padding-top: 22px;
+    padding-bottom: 44px;
+}
+
+.ContractPage textarea{
+    height: 130px;
+    padding-top: 10px;
+    margin-bottom: 20px !important;
+}
+
+.ContractPage input{
+    margin-bottom: 20px !important;
+}
+
+.ContractPage select{
+    margin-bottom: 20px !important;
+}
+
+.ContractPage form .InputError{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
